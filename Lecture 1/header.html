@@ -1,6 +1,6 @@
 <nav class="p-3 navbar navbar-dark bg-dark navbar-expand-lg">
       <div class="container">
-        <a class="navbar-brand" href="{% url 'home.index' %}">
+        <a class="navbar-brand" href="{% url 'home' %}">
           <img src="{% static 'img/logo.png' %}" alt="logo" height="40" />
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
@@ -9,7 +9,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ms-auto navbar-ml">
-            <a class="nav-link" href="{% url 'home.about' %}">About</a>
+            <a class="nav-link" href="{% url 'about' %}">About</a>
           </div>
         </div>
       </div>
